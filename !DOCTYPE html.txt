@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Shopping Hub For You</title>
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Online Shopping Hub For You" />
+  <meta property="og:description" content="Best Deals on Electronics & Home Appliances" />
+  <meta property="og:image" content="https://yourwebsite.com/images/share-image.jpg" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Online Shopping Hub For You" />
+  <meta name="twitter:description" content="Best Deals on Electronics & Home Appliances" />
+  <meta name="twitter:image" content="https://yourwebsite.com/images/share-image.jpg" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ff6a00;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .hero {
+      padding: 2rem;
+      text-align: center;
+      background-color: #fff3e6;
+    }
+    .hero h2 {
+      margin-bottom: 1rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+    .product-card:hover {
+      transform: scale(1.05) rotateY(5deg);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+    }
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin: 1rem 0 0.5rem;
+    }
+    .product-card p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .btn {
+      background-color: #ff6a00;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+    .item-list {
+      padding: 0 2rem;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    .item-list h4 {
+      margin-bottom: 0.5rem;
+    }
+    .item-list ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Shopping Hub For You</h1>
+    <p>Best Deals on Electronics & Home Appliances</p>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Online Shopping Hub For You</h2>
+    <p>Your go-to place for top electronics and home appliances at amazing prices!</p>
+  </section>
+
+  <section class="item-list">
+    <h4>Products Available:</h4>
+    <ul>
+      <li>Philips Smart Air Fryer</li>
+      <li>Whirlpool Convertible AC</li>
+      <li>Convection Microwave Oven</li>
+      <li>Samsung Double Door Refrigerator</li>
+      <li>LG Double Door Refrigerator</li>
+      <li>LG 4K Smart TV</li>
+    </ul>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="philips air fryer.jpg" alt="Philips Smart Air Fryer" />
+      <h3>Philips Smart Air Fryer</h3>
+      <p>PHILIPS Air Fryer NA231/00 with touch panel, uses up to 90% less fat, 1700W, 6.2 Liter, with Rapid Air Technology (Black), Cooking window, Extra Large</p>
+      <a href="https://amzn.to/3RRWMPz" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="/mnt/data/51-qnqtzUKL._SX679_.jpg" alt="Whirlpool AC" />
+      <h3>Whirlpool Convertible AC</h3>
+      <p>Whirlpool 1.5 Ton 3 Star, Magicool Inverter Split AC (MAGICOOL 15T 3S INV CNV S5K2PP0, Copper, Convertible 4-in-1 Cooling Mode, HD Filter White)</p>
+      <a href="https://amzn.to/4k1pcT0" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x180?text=Microwave+Oven" alt="Microwave Oven" />
+      <h3>Convection Microwave Oven</h3>
+      <p>High-efficiency convection microwave oven suitable for grilling, baking, and reheating with multiple presets and smart touch controls.</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300x180?text=Refrigerator" alt="Refrigerator" />
+      <h3>Samsung Double Door Refrigerator</h3>
+      <p>Samsung 324L 2 Star Inverter Frost Free Double Door Refrigerator with Digital Inverter Technology - Elegant Inox</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="lg frdge.jpg" alt="LG Refrigerator" />
+      <h3>LG Double Door Refrigerator</h3>
+      <p>LG 322 L 3 Star Frost-Free Smart Inverter Double Door Refrigerator (GL-S342SDSX, Dazzle Steel, Convertible with Express Freeze)</p>
+      <a href="https://amzn.to/44U2urO" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="tv.jpg" alt="LG Smart TV" />
+      <h3>LG 4K Smart TV</h3>
+      <p>LG 139 cm (55 inches) 4K Ultra HD Smart LED TV 55UR7500PSC (Dark Iron Gray)</p>
+      <a href="https://amzn.to/4iTtGue" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Online Shopping Hub For You. Affiliate links used.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
